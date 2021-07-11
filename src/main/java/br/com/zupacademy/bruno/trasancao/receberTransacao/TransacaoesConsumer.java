@@ -1,8 +1,7 @@
 package br.com.zupacademy.bruno.trasancao.receberTransacao;
 
-import br.com.zupacademy.bruno.trasancao.compartilhados.transacao.RequestTransacao;
-import br.com.zupacademy.bruno.trasancao.compartilhados.transacao.Transacao;
-import br.com.zupacademy.bruno.trasancao.compartilhados.transacao.TransacaoRepository;
+import br.com.zupacademy.bruno.trasancao.compartilhados.entidades.Transacao;
+import br.com.zupacademy.bruno.trasancao.compartilhados.repositorios.TransacaoRepository;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 

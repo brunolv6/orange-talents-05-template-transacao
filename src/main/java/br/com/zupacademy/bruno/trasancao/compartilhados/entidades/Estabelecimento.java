@@ -1,4 +1,4 @@
-package br.com.zupacademy.bruno.trasancao.compartilhados.estabelecimento;
+package br.com.zupacademy.bruno.trasancao.compartilhados.entidades;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

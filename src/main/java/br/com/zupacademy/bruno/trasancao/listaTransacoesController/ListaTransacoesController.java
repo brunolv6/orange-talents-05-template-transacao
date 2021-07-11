@@ -1,9 +1,9 @@
 package br.com.zupacademy.bruno.trasancao.listaTransacoesController;
 
-import br.com.zupacademy.bruno.trasancao.compartilhados.cartao.Cartao;
+import br.com.zupacademy.bruno.trasancao.compartilhados.entidades.Cartao;
 import br.com.zupacademy.bruno.trasancao.compartilhados.errors.ApiException;
-import br.com.zupacademy.bruno.trasancao.compartilhados.transacao.Transacao;
-import br.com.zupacademy.bruno.trasancao.compartilhados.transacao.TransacaoRepository;
+import br.com.zupacademy.bruno.trasancao.compartilhados.entidades.Transacao;
+import br.com.zupacademy.bruno.trasancao.compartilhados.repositorios.TransacaoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -1,6 +1,6 @@
 package br.com.zupacademy.bruno.trasancao.listaTransacoesController;
 
-import br.com.zupacademy.bruno.trasancao.compartilhados.transacao.Transacao;
+import br.com.zupacademy.bruno.trasancao.compartilhados.entidades.Transacao;
 import org.springframework.data.domain.Page;
 
 import java.math.BigDecimal;

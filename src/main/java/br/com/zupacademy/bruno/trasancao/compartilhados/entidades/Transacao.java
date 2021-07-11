@@ -1,7 +1,4 @@
-package br.com.zupacademy.bruno.trasancao.compartilhados.transacao;
-
-import br.com.zupacademy.bruno.trasancao.compartilhados.cartao.Cartao;
-import br.com.zupacademy.bruno.trasancao.compartilhados.estabelecimento.Estabelecimento;
+package br.com.zupacademy.bruno.trasancao.compartilhados.entidades;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;

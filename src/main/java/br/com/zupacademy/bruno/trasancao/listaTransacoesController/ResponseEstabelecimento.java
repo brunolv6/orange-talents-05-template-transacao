@@ -1,9 +1,6 @@
 package br.com.zupacademy.bruno.trasancao.listaTransacoesController;
 
-import br.com.zupacademy.bruno.trasancao.compartilhados.estabelecimento.Estabelecimento;
-
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
+import br.com.zupacademy.bruno.trasancao.compartilhados.entidades.Estabelecimento;
 
 public class ResponseEstabelecimento {
 

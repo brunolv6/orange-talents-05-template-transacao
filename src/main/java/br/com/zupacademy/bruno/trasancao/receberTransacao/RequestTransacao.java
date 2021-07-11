@@ -1,7 +1,6 @@
-package br.com.zupacademy.bruno.trasancao.compartilhados.transacao;
+package br.com.zupacademy.bruno.trasancao.receberTransacao;
 
-import br.com.zupacademy.bruno.trasancao.compartilhados.cartao.RequestCartao;
-import br.com.zupacademy.bruno.trasancao.compartilhados.estabelecimento.RequestEstabelecimento;
+import br.com.zupacademy.bruno.trasancao.compartilhados.entidades.Transacao;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
