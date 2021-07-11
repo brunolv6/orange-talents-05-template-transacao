@@ -1,4 +1,4 @@
-package br.com.zupacademy.bruno.trasancao.kafka.config;
+package br.com.zupacademy.bruno.trasancao.receberTransacao.kafka.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

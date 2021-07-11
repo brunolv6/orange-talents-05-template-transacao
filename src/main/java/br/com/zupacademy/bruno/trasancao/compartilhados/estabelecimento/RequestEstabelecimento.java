@@ -1,9 +1,7 @@
-package br.com.zupacademy.bruno.trasancao.kafka.dtos;
+package br.com.zupacademy.bruno.trasancao.compartilhados.estabelecimento;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
-import java.math.BigDecimal;
 
 public class RequestEstabelecimento {
 
@@ -21,6 +19,10 @@ public class RequestEstabelecimento {
         this.nome = nome;
         this.cidade = cidade;
         this.endereco = endereco;
+    }
+
+    public Estabelecimento toModel() {
+        return new Estabelecimento(this.nome, this.cidade, this.endereco);
     }
 
     @Override

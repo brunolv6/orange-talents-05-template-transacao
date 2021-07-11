@@ -1,4 +1,4 @@
-package br.com.zupacademy.bruno.trasancao.kafka.dtos;
+package br.com.zupacademy.bruno.trasancao.compartilhados.cartao;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -15,6 +15,10 @@ public class RequestCartao {
     public RequestCartao(@JsonProperty("id") String id, @JsonProperty("email") String email) {
         this.id = id;
         this.email = email;
+    }
+
+    public Cartao toModel(){
+        return new Cartao(this.id, this.email);
     }
 
     @Override
